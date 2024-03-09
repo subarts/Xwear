@@ -1,0 +1,40 @@
+
+.h1 {
+  color: white;
+}
+.nav{
+  display: flex;
+  gap: 3rem;
+}
+.h1>span{
+  color: #49D0FF;
+}
+.nav>select,.nav>button{
+  background-color: black;
+  color: white;
+  
+}
+.nav>select:active,.nav>select:focus{
+  outline:none;
+  background-color: black;
+}
+.buttonsList{
+  display: flex;
+  gap: 2rem;
+}
+/* .twoCard {
+  color: white;
+  width: 1.125rem;
+  height: 1.125rem;
+  background: #49D0FF;
+  list-style: none;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cartNumbers{
+  color: white;
+  list-style-type: none
+} */
