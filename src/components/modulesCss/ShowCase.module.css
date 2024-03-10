@@ -1,0 +1,16 @@
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.1875rem;
+  height: 4.1875rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.button{
+  width: 15.75rem;
+  height: 4.125rem;
+  border-radius: 0.3125rem;
+  color: white;
+  background-color: black;
+}

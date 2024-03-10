@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import styles from "./modulesCss/Header.module.css";
+import React from "react"
+import Image from "next/image"
+import styles from "./modulesCss/Header.module.css"
 const Header = () => {
   return (
-    <header className="bg-black  flex flex-row w-[85.125rem] h-[6.25rem] items-center gap-[7.5rem]">
+    <header className="wrapper bg-black  flex flex-row w-[85.125rem] h-[6.25rem] items-center gap-[7.5rem]">
       <h1 className={styles.h1}>
         <span>X</span>WEAR
       </h1>
@@ -64,6 +64,6 @@ const Header = () => {
         </ul> */}
       </div>
     </header>
-  );
-};
-export default Header;
+  )
+}
+export default Header
