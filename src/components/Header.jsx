@@ -22,6 +22,11 @@ const Header = () => {
           <button className="xexe">Расчет стоимости </button>
           <select className={styles.selectList}>
             <option>Информация </option>
+            <option>Наш блог</option>
+            <option>Наши контакты</option>
+            <option>Доставка</option>
+            <option>Оплата</option>
+            <option>FAQ</option>
           </select>
         </nav>
         <div className={styles.buttonsList}>
