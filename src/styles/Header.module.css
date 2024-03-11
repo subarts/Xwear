@@ -1,7 +1,4 @@
 
-.h1 {
-  color: white;
-}
 .nav{
   display: flex;
   gap: 3rem;
@@ -22,7 +19,7 @@
   display: flex;
   gap: 2rem;
 }
-/* .twoCard {
+ .twoCard {
   color: white;
   width: 1.125rem;
   height: 1.125rem;
@@ -37,4 +34,9 @@
 .cartNumbers{
   color: white;
   list-style-type: none
-} */
+}
+.selectList>option{
+background-color: #f9f9f9;
+color: black;
+} 
+

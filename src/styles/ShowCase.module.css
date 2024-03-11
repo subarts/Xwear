@@ -1,0 +1,56 @@
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.1875rem;
+  height: 4.1875rem;
+  background-color: white;
+  border-radius: 50%;
+  
+}
+.leftArrow{
+  position: relative;
+  left: 5.625rem;
+  top: 10.125rem;
+  z-index: 1;
+}
+.rightArrow{
+  position: relative;
+  left: 10.8125rem;
+  top: 5.9375rem;
+  z-index: 1;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4375rem;
+  width: 15.75rem;
+  height: 4.125rem;
+  border-radius: 0.3125rem;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+.caption{
+  font-family: var(--inter);
+  line-height: 3.9375rem;
+  font-weight: 700;
+  font-size: 3rem;
+  }
+.headline{
+  position: relative;
+  top: 6.1875rem;
+  left: 5.6875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22.3125rem;
+}
+.headlineText{
+  font-size: 1.1875rem;
+}
+
+

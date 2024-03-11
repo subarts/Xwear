@@ -17,13 +17,9 @@
 }
 .wrapper {
   margin: 0 auto;
+  
 }
 body {
  background-color: white;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
