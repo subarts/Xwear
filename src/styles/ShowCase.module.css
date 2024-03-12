@@ -33,6 +33,7 @@
   background-color: black;
   font-weight: 400;
   font-size: 0.75rem;
+  transition: 2s;
 }
 .caption{
   font-family: var(--inter);
@@ -51,6 +52,10 @@
 }
 .headlineText{
   font-size: 1.1875rem;
+}
+.button:hover{
+  background-color: #00BDFF;
+  transition: 2s;
 }
 
 

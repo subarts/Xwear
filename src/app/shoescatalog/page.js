@@ -1,8 +1,5 @@
 
-import Accessories from "@/components/Accessories";
-import Clothes from "@/components/Clothes";
 import Header from "@/components/Header";
-import Shoes from "@/components/Shoes";
 import ShowCase from "@/components/ShowCase";
 
 export default function Home() {
@@ -11,10 +8,7 @@ export default function Home() {
     <>
     <Header/>
     <main className="wrapper flex flex-col items-center">
-      <ShowCase />
-      <Shoes/>
-      <Clothes/>
-      <Accessories/>
+      this is shoespage
     </main>
     </>
   );
