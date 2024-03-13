@@ -1,6 +1,6 @@
 
 import Header from "@/components/Header";
-import ShowCase from "@/components/ShowCase";
+import ShowCase from "@/components/Showcase";
 
 export default function Home() {
 

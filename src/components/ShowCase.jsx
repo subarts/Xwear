@@ -1,8 +1,8 @@
 import React from "react"
 import Image from "next/image"
-import styles from "./../styles/ShowCase.module.css"
+import styles from "./../styles/Showcase.module.css"
 
-const ShowCase = () => {
+const Showcase = () => {
   return (
     <section className=" mt-12  w-[96.3125rem] h-[39.4375rem] bg-orange-400 rounded-lg">
       <div className={styles.headline}>
@@ -41,4 +41,4 @@ const ShowCase = () => {
   )
 }
 
-export default ShowCase
+export default Showcase
