@@ -1,6 +1,7 @@
 
 import AccessoriesShowcase from "@/components/AccessoriesShowcase";
 import ClothesShowcase from "@/components/ClothesShowcase";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Poizon from "@/components/Poizon";
 import ShoesShowcase from "@/components/ShoesShowcase";
@@ -12,12 +13,14 @@ export default function Home() {
     <>
     <Header/>
     <main className="wrapper flex flex-col items-center">
-      <Showcase />
+      <Showcase/>
       <ShoesShowcase/>
       <ClothesShowcase/>
       <AccessoriesShowcase/>
       <Poizon/>
+     
     </main>
+    <Footer/>
     </>
   );
 }
