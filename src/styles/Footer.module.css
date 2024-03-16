@@ -4,3 +4,8 @@ flex-direction: column;
 gap: 0.5625rem;
 line-height: 1.75rem;
 }
+.listItems>ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5625rem;
+}

@@ -49,33 +49,43 @@ const Footer = () => {
         <div className={`w-[8.9375rem] ${styles.listItems}`}>
           <h3>КОНТАКТЫ</h3>
           <ul>
-            <li>info@xwear.info</li>
-            <li>+7 993 608 38 85</li>
+            <li>
+              <Link href="mailto:info@xwear.info">info@xwear.info</Link>
+            </li>
+            <li>
+              <Link href="tel: +79991234567">+7 999 123 45 67</Link>
+            </li>
             <li className="flex flex-row flex-wrap gap-x-[0.56rem] gap-y-[3px]">
               МЕССЕНДЖЕРЫ
               <div className="flex flex-row gap-x-2">
-                <Image
-                  src="./icons/Group 345.svg"
-                  width={30}
-                  height={30}
-                  alt="logo"
-                />
-                <Image
-                  src="./icons/Group 344.svg"
-                  width={30}
-                  height={30}
-                  alt="logo"
-                />
+                <Link href="https://telegram.org/">
+                  <Image
+                    src="./icons/Group 345.svg"
+                    width={30}
+                    height={30}
+                    alt="telgramm"
+                  />
+                </Link>
+                <Link href="https://www.reddit.com/r/nosurf/comments/ugoypn/i_fucking_hate_whatsapp/?rdt=42005">
+                  <Image
+                    src="./icons/Group 344.svg"
+                    width={30}
+                    height={30}
+                    alt="whatsApp"
+                  />
+                </Link>
               </div>
             </li>
             <li className="flex flex-col gap-y-[3px]">
               НАШИ СОЦ.СЕТИ
-              <Image
-                src="./icons/Frame 13.svg"
-                width={30}
-                height={30}
-                alt="logo"
-              />
+              <Link href="https://vk.com/">
+                <Image
+                  src="./icons/Frame 13.svg"
+                  width={30}
+                  height={30}
+                  alt="vk"
+                />
+              </Link>
             </li>
           </ul>
         </div>
