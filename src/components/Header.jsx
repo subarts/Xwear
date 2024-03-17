@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 import styles from "./../styles/Header.module.css"
 const Header = () => {
   return (
@@ -7,27 +8,111 @@ const Header = () => {
       <div className="wrapper flex w-[85.125rem] items-center justify-between">
         <Image src="./icons/logo.svg" width={84} height={34} alt="logo" />
         <nav className={styles.nav}>
-          <select className={styles.selectList}>
-            <option>Одежда </option>
-          </select>
-          <select className={styles.selectList}>
-            <option>Обувь </option>
-          </select>
-          <select className={styles.selectList}>
-            <option>Аксессуары </option>
-          </select>
-          <select className={styles.selectList}>
-            <option>Бренды </option>
-          </select>
-          <button className="xexe">Расчет стоимости </button>
-          <select className={styles.selectList}>
-            <option>Информация </option>
-            <option>Наш блог</option>
-            <option>Наши контакты</option>
-            <option>Доставка</option>
-            <option>Оплата</option>
-            <option>FAQ</option>
-          </select>
+          <div className={styles.menuBlock}>
+            <button className={styles.navButton}>Одежда</button>
+
+            <ul className={styles.menuList}>
+              <li>
+                <Link href={"./blog"}>Наш Блог</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Контакты</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Доставка</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Оплата</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>FAQ</Link>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.menuBlock}>
+            <button className={styles.navButton}>Обувь</button>
+
+            <ul className={styles.menuList}>
+              <li>
+                <Link href={"./blog"}>Кроссовки</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Кеды</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Сандали</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Шлепки</Link>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.menuBlock}>
+            <button className={styles.navButton}>Акссесуары</button>
+
+            <ul className={styles.menuList}>
+              <li>
+                <Link href={"./blog"}>Наш Блог</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Контакты</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Доставка</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Оплата</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>FAQ</Link>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.menuBlock}>
+            <button className={styles.navButton}>Бренды</button>
+
+            <ul className={styles.menuList}>
+              <li>
+                <Link href={"./blog"}>Наш Блог</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Контакты</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Доставка</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Оплата</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>FAQ</Link>
+              </li>
+            </ul>
+          </div>
+          <button>
+            <Link href={"/calculateCost"}>Расчет стоимости</Link>
+          </button>
+          <div className={styles.menuBlock}>
+            <button className={styles.navButton}>Информация</button>
+
+            <ul className={styles.menuList}>
+              <li>
+                <Link href={"./blog"}>Наш Блог</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Контакты</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Доставка</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>Оплата</Link>
+              </li>
+              <li>
+                <Link href={"./blog"}>FAQ</Link>
+              </li>
+            </ul>
+          </div>
         </nav>
         <div className={styles.buttonsList}>
           <button>

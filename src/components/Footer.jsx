@@ -4,7 +4,7 @@ import Link from "next/link"
 import styles from "./../styles/Footer.module.css"
 const Footer = () => {
   return (
-    <footer className="h-[23.1875rem] bg-black mt-[15rem] flex items-center">
+    <footer className="h-[23.1875rem] bg-black mt-[7.375rem] flex items-center">
       <div className="wrapper w-[84.625rem] flex justify-between gap-[13.25rem]">
         <div className="h-[17.1875rem] flex flex-col justify-between">
           <div className={styles.listItems}>

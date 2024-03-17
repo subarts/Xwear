@@ -1,20 +1,16 @@
 
 .nav{
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
 }
 .h1>span{
   color: #49D0FF;
 }
-.nav>select,.nav>button{
-  background-color: black;
+.nav>button{
   color: white;
   
 }
-.nav>select:active,.nav>select:focus{
-  outline:none;
-  background-color: black;
-}
+
 .buttonsList{
   display: flex;
   gap: 2rem;
@@ -35,8 +31,39 @@
   color: white;
   list-style-type: none
 }
-.selectList>option{
-background-color: #f9f9f9;
-color: black;
-} 
+ 
+.menuBlock{
+color: white;
+cursor: pointer;
+position: relative;
 
+
+}
+.menuList{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  color: #f9f9f9;
+  background-color: black;
+  top: 62px;
+  left: -1px;
+  width: 145px;
+  height: 20.375rem;
+  flex-direction: column;
+  gap: 42px;
+  align-items: center;
+  z-index: 1;
+  height: 0px;
+  overflow: hidden;
+  border-radius: 0.3125rem;
+}
+.menuBlock:hover>.menuList,.menuList:hover{
+ height: 20.375rem;
+ overflow: visible;
+
+}
+.navButton{
+  width: 145px;
+  background-color: black;
+  height: 62px;
+}

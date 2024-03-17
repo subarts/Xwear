@@ -18,7 +18,6 @@ export default function Home() {
       <ClothesShowcase/>
       <AccessoriesShowcase/>
       <Poizon/>
-     
     </main>
     <Footer/>
     </>
